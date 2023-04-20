@@ -1,0 +1,66 @@
+nest-api-admin
+├─.editorconfig
+├─.env
+├─.env.dev
+├─.env.prod
+├─.eslintrc.js
+├─.gitignore
+├─.prettierrc
+├─LICENSE
+├─README.md
+├─list.txt
+├─nest-cli.json
+├─package.json
+├─treer.txt
+├─tsconfig.build.json
+├─tsconfig.json
+├─yarn.lock
+├─src
+|  ├─main.ts
+|  ├─utils
+|  |   ├─get-request-ip.ts
+|  |   ├─http-exception.ts
+|  |   ├─response.interceptor.ts
+|  |   └util.ts
+|  ├─types
+|  |   └common.ts
+|  ├─modules
+|  |    ├─users
+|  |    |   ├─users.controller.ts
+|  |    |   ├─users.entity.ts
+|  |    |   ├─users.module.ts
+|  |    |   ├─users.service.ts
+|  |    |   ├─types
+|  |    |   |   └index.ts
+|  |    |   ├─dto
+|  |    |   |  ├─create.user.dto.ts
+|  |    |   |  ├─find.user.dto.ts
+|  |    |   |  └put.user.dto.ts
+|  |    ├─logs
+|  |    |  ├─logs.controller.ts
+|  |    |  ├─logs.entity.ts
+|  |    |  ├─logs.module.ts
+|  |    |  ├─logs.service.ts
+|  |    |  ├─types
+|  |    |  |   └index.ts
+|  |    |  ├─dto
+|  |    |  |  ├─create.logs.dto.ts
+|  |    |  |  └find.logs.dto.ts
+|  |    ├─common
+|  |    |   ├─auth.guard.ts
+|  |    |   └public.decorator.ts
+|  |    ├─auth
+|  |    |  ├─auth.module.ts
+|  |    |  ├─auth.service.ts
+|  |    |  └jwt.stratagy.ts
+|  |    ├─app
+|  |    |  ├─app.controller.spec.ts
+|  |    |  ├─app.controller.ts
+|  |    |  ├─app.module.ts
+|  |    |  └app.service.ts
+|  ├─enum
+|  |  ├─log.ts
+|  |  └user.ts
+|  ├─config
+|  |   ├─config.defaule.ts
+|  |   └sql.config.ts
