@@ -6,4 +6,11 @@
 *.code-workspace
 
 # Local History for Visual Studio Code
+.idea
 .history/
+/node_modules/
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
