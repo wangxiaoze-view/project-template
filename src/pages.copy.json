@@ -1,0 +1,32 @@
+{
+	"pages": [
+		{
+			"path": "pages/index/index",
+			"meta": {
+				"test": "测试"
+			},
+			"style": {
+				"navigationBarTitleText": "测试页面",
+				"navigationBarTextStyle": "white",
+				"navigationStyle": "default"
+			}
+		}
+	],
+	"subPackages": [{}],
+
+	"easycom": {
+		"autoscan": true,
+		"custom": {
+			"tui-(.*)": "@/uni_modules/thorui/tui-$1/tui-$1.vue"
+		}
+	},
+	"globalStyle": {
+		"backgroundTextStyle": "dark",
+		"navigationBarBackgroundColor": "#5677FC",
+		"navigationBarTitleText": "Thor UI",
+		"navigationBarTextStyle": "white",
+		"backgroundColor": "#fafafa",
+		"backgroundColorTop": "#fafafa",
+		"backgroundColorBottom": "#fafafa"
+	}
+}

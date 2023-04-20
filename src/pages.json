@@ -1,0 +1,97 @@
+{
+  "pages": [
+    {
+      "path": "pages/login/index",
+      "meta": {},
+      "style": {
+        "navigationBarTitleText": "登录",
+        "navigationBarTextStyle": "white",
+        "navigationStyle": "custom"
+      }
+    },
+    {
+      "path": "pages/tabBar/home/index",
+      "meta": {},
+      "style": {
+        "navigationBarTitleText": "应用",
+        "navigationBarTextStyle": "white",
+        "navigationStyle": "default"
+      }
+    },
+    {
+      "path": "pages/tabBar/sort/index",
+      "meta": {},
+      "style": {
+        "navigationBarTitleText": "分类",
+        "navigationBarTextStyle": "white",
+        "navigationStyle": "default"
+      }
+    },
+    {
+      "path": "pages/tabBar/cart/index",
+      "meta": {},
+      "style": {
+        "navigationBarTitleText": "购物车",
+        "navigationBarTextStyle": "white",
+        "navigationStyle": "default"
+      }
+    },
+    {
+      "path": "pages/tabBar/my/index",
+      "meta": {},
+      "style": {
+        "navigationBarTitleText": "我的",
+        "navigationBarTextStyle": "white",
+        "navigationStyle": "default"
+      }
+    },
+  ],
+
+  "easycom": {
+    "autoscan": true,
+    "custom": {
+      "tui-(.*)": "@/uni_modules/thorui/tui-$1/tui-$1.vue"
+    }
+  },
+  "globalStyle": {
+    "backgroundTextStyle": "dark",
+    "navigationBarBackgroundColor": "#5677FC",
+    "navigationBarTitleText": "Thor UI",
+    "navigationBarTextStyle": "white",
+    "backgroundColor": "#fafafa",
+    "backgroundColorTop": "#fafafa",
+    "backgroundColorBottom": "#fafafa"
+  },
+
+  "tabBar": {
+    "color": "#666666",
+    "selectedColor": "#5677FC",
+    "backgroundColor": "#FFFFFF",
+    "borderStyle": "white",
+    "list": [{
+      "pagePath": "pages/tabBar/home/index",
+      "text": "首页",
+      "iconPath": "static/image/tabBar/icon_index.png",
+      "selectedIconPath": "static/image/tabBar/icon_index_fill.png"
+    },
+      {
+        "pagePath": "pages/tabBar/sort/index",
+        "text": "分类",
+        "iconPath": "static/image/tabBar/icon_classify.png",
+        "selectedIconPath": "static/image/tabBar/icon_classify_fill.png"
+      },
+      {
+        "pagePath": "pages/tabBar/cart/index",
+        "text": "购物车",
+        "iconPath": "static/image/tabBar/icon_cart.png",
+        "selectedIconPath": "static/image/tabBar/icon_cart_fill.png"
+      },
+      {
+        "pagePath": "pages/tabBar/my/index",
+        "text": "我的",
+        "iconPath": "static/image/tabBar/icon_my.png",
+        "selectedIconPath": "static/image/tabBar/icon_my_fill.png"
+      }
+    ]
+  }
+}
